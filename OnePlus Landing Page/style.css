@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e45252;
+  color: #0e0a0a;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.icon {
+  background-color: #2f3b43;
+  color: #fff;
+  justify-content: left;
+  border-radius: 5px;
+  text-align: right;
+  transition: background-color 0.3s ease-in-out
+}
+
+.Phones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Phone {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Phone img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.Phone  h2 {
+  font-size: 20px;
+}
+
+.Phone  ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Phone  li {
+  margin-bottom: 5px;
+}
+
+
+.addcart {
+  background-color: #2f3b43;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.addcart:hover {
+  background-color: #2f3a41;
+}
+
+footer {
+  background-color: #e45252;
+  color: #fff;
+  text-align:left;
+  padding: 25px 0;
+}
+
+.Review {
+  background-color: #2f3b43;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3 ease-in
+}
+
